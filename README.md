@@ -14,7 +14,7 @@ This dataset contains all players that we collected data for, and ran the cluter
 ### nba_lineups.csv
 This dataset contains all NBA lineups that we used in our 100 bootstrapped random forest models. Each lineup has "summed" soft cluster probabilities across all 9 clusters for the 5 players in each lineup, as well as all neccessary criteria in which we calculated each lineups Bayesian Net Rating (explained in paper).
 
-### nba_predition_frame1.rda & nba_prediction_frame2.rda
+### nba_pred_frame(1-9).rda
 These datasets contain our 3.1 million possible lineups prediction frame that we created and their Bayesian Net Rating predictions calculated by our bootstrapped random forests. 
 
 ## Conclusion
